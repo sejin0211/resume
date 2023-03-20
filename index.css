@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800&display=swap');
+
+*{
+    font-family: 'Montserrat';
+}
+
+body, h1, h2 {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    min-width: fit-content;
+}
+
+h1{
+    font-size: 36px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+h2{
+    font-size: 20px;
+    color: rgb(53, 53, 53);
+    font-weight: lighter;
+    margin-bottom: 16px;
+    border-bottom: 1px solid #909090;
+    padding-bottom: 5px;
+}
+
+.name-txt{
+    font-size: 16px;
+    color: rgb(182, 182, 182);
+    font-weight: bold;
+}
+
+.about-me-txt{
+    font-size: 11px;
+    line-height: 16px;
+}
+
+.mainbox{
+    width: 610px;
+    padding: 30px;
+    margin: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid #909090;
+    box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.1)
+}
+
+.title-txt{
+    font-size: 12px;
+    font-weight: bold;
+    color: #282828;
+    float: left;
+}
+
+.year-txt{
+    font-size: 12px;
+    font-weight: bold;
+    color: #282828;
+    float: right;
+}
+
+footer{
+    text-align: center;
+    background-color: #1e1e1e;
+    padding: 20px;
+    font-size: 12px;
+    color: #919191;
+}
+
+section {
+    margin-bottom: 24px;
+}
+
+.float-wrap{
+    overflow: hidden;
+}
+
+.title-box{
+    text-align: right;
+}
+
+.desc-txt{
+    font-size: 11px;
+}
+
+.desc-subtxt{
+    font-size: 9px;
+    color: #282828;
+    padding-left: 16px;
+}
+
+.sns-wrap{
+    text-align: right;
+}
+
+.sns-img{
+    width: 12px;
+    height: 12px;
+}
+
+
+.desc-txt > a {
+    color: black;
+    text-decoration: none;
+}
