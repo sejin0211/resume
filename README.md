@@ -1,1 +1,3 @@
 https://sejin0211.github.io/resume/
+
+6개월마다 업데이트...
